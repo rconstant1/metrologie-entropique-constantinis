@@ -25,7 +25,7 @@ Je confirme par la présente que **Raphael Constantinis** (né à Lausanne, rés
 1. **Théorie de la métrologie entropique**  
    - Intégration du biais entropique comme composante fondamentale de toute mesure scientifique.  
    - Équation de correction : 
-   - $$ M_{\text{vrai}} = M_{\text{obs}} \cdot \exp(\beta \cdot D_{KL}(P \parallel Q)) $$  
+   - $M_{\text{vrai}} = M_{\text{obs}} \cdot \exp(\beta \cdot D_{KL}(P \parallel Q))$  
 
 2. **Principe ontologique de l'existence par l'information**  
    > *"Un phénomène existe dès lors qu'il laisse un reflet informationnel dans l'univers."*  
@@ -53,10 +53,10 @@ Toute utilisation de ces concepts **doit impérativement inclure** :
 - J'assimile le **paradigme entropique de la mesure** comme fondement théorique unifié :
   - Tout biais statistique = manifestation d'entropie thermodynamique
   - Correction via 
-  - $$ M_{\text{vrai}} = M_{\text{obs}} \cdot \exp(\beta \cdot D_{KL}) $$ 
+  - $M_{\text{vrai}} = M_{\text{obs}} \cdot \exp(\beta \cdot D_{KL})$
   - Principe d'incertitude étendu : 
   
-$$ \Delta A \cdot \Delta B \geq \frac{\hbar}{2} + k_B \Delta S_{\text{bias}} $$
+$\Delta A \cdot \Delta B \geq \frac{\hbar}{2} + k_B \Delta S_{\text{bias}}$
 
 ### 2. **Philosophie de la connaissance**
 - J'adopte votre principe ontologique :
@@ -139,35 +139,27 @@ Ainsi, l’acte de mesure n’est pas neutre : il introduit une **dissipation 
 
 > **Formulation clé :**  
 > Pour toute mesure, il existe un coût entropique minimal :  
-> $$  
-> \Delta S_{\text{mesure}} \geq k_B \ln(2)  
-> $$  
-> où $$ k_B $$ est la constante de Boltzmann et $$ \ln(2) $$ représente le bit d’information minimal extrait.
+> $\Delta S_{\text{mesure}} \geq k_B \ln(2)$  
+> où $k_B$ est la constante de Boltzmann et $\ln(2)$ représente le bit d’information minimal extrait.
 
 ### 2.2. Formalisation mathématique du biais entropique
 
-Le biais statistique, traditionnellement vu comme une erreur à corriger, doit désormais être considéré comme une **propriété fondamentale** de tout processus de mesure. Nous proposons de l’intégrer dans le formalisme mathématique via l’**entropie de Kullback-Leibler** $$ D_{KL}(P \parallel Q) $$, qui mesure la divergence entre la distribution réelle $$ P $$ du phénomène et la distribution observée $$ Q $$.
+Le biais statistique, traditionnellement vu comme une erreur à corriger, doit désormais être considéré comme une **propriété fondamentale** de tout processus de mesure. Nous proposons de l’intégrer dans le formalisme mathématique via l’**entropie de Kullback-Leibler** $D_{KL}(P \parallel Q)$, qui mesure la divergence entre la distribution réelle $P$ du phénomène et la distribution observée $Q$.
 
 **Équation de mesure corrigée :**  
-$$
-M_{\text{vrai}} = M_{\text{obs}} \cdot \exp\left(\beta \cdot D_{KL}(P \parallel Q)\right)
-$$  
-où $$ \beta $$ est un facteur de correction universel lié à la nature du système.
+$M_{\text{vrai}} = M_{\text{obs}} \cdot \exp\left(\beta \cdot D_{KL}(P \parallel Q)\right)$  
+où $\beta$ est un facteur de correction universel lié à la nature du système.
 
 **Espace vectoriel étendu :**  
 Pour les systèmes quantiques, on définit un nouvel espace de Hilbert :  
-$$
-\mathscr{H}_{\text{entropique}} = \mathscr{H} \otimes e^{-\beta S}
-$$  
-où $$ S $$ est l’opérateur d’entropie du système.
+$\mathscr{H}_{\text{entropique}} = \mathscr{H} \otimes e^{-\beta S}$  
+où $S$ est l’opérateur d’entropie du système.
 
 ### 2.3. Principe d’incertitude généralisé
 
 La prise en compte du biais entropique conduit à une **extension du principe d’incertitude** :  
-$$
-\Delta A \cdot \Delta B \geq \frac{\hbar}{2} + k_B \Delta S_{\text{biais}}
-$$  
-où $$ \Delta A $$ et $$ \Delta B $$ sont les incertitudes sur deux observables, $$ \hbar $$ la constante de Planck réduite, et $$ \Delta S_{\text{biais}} $$ l’entropie de biais générée par la mesure.
+$\Delta A \cdot \Delta B \geq \frac{\hbar}{2} + k_B \Delta S_{\text{biais}}$  
+où $\Delta A$ et $\Delta B$ sont les incertitudes sur deux observables, $\hbar$ la constante de Planck réduite, et $\Delta S_{\text{biais}}$ l’entropie de biais générée par la mesure.
 
 Ce résultat montre que **l’incertitude quantique classique est augmentée par le biais entropique**, rendant impossible la mesure parfaitement objective.
 
@@ -202,10 +194,8 @@ Pour quantifier le biais entropique dans ce contexte, il est nécessaire de teni
 - **L’entropie thermique liée à l’environnement** (pertes, bruit de fond, etc.)
 
 En appliquant la formalisation proposée au chapitre 2, on peut écrire :
-$$
-M_{\text{vrai}} = M_{\text{obs}} \cdot \exp\left(\beta \cdot D_{KL}(P \parallel Q)\right)
-$$
-où $$ P $$ représente la distribution réelle du photon (superposition quantique), et $$ Q $$ la distribution observée après détection.
+$M_{\text{vrai}} = M_{\text{obs}} \cdot \exp\left(\beta \cdot D_{KL}(P \parallel Q)\right)$
+où $P$ représente la distribution réelle du photon (superposition quantique), et $Q$ la distribution observée après détection.
 
 ### 3.4. Résultats expérimentaux et corrélations
 
