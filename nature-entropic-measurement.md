@@ -208,9 +208,9 @@ The author thanks the global scientific community for their commitment to open s
 
 **Corresponding Author Information**:  
 Raphael Constantinis  
-Route de Frontenex, Geneva, Switzerland  
-Email: [To be provided upon publication]
+90 Route de Frontenex, 1208 Geneva, Switzerland  
+Email: raphael@constantinis.com
 
-**Data Availability**: All experimental data, analysis codes, and theoretical derivations are made freely available under CC0 license at: [Repository to be established]
+**Data Availability**: All experimental data, analysis codes, and theoretical derivations are made freely available under CC0 license at: [Repository](https://github.com/rconstant1/entropic_measurement)
 
 **Conflict of Interest**: The author declares no competing interests. This work is donated to humanity without restriction.
